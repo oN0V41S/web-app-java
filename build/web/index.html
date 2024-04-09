@@ -5,11 +5,69 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Cadastro de Produto</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                font-family: Arial,"sans-serif";
+            }
+            header{
+                background-color: white;
+                color: black;
+                padding: 10px;
+            }
+            nav{
+                background-color: grey;
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: white;
+            }
+            a{
+                text-decoration: none;
+                transition: all 300ms ease-in-out;
+                color: white;
+            }
+            nav a:hover{
+                color: red;
+            }
+            main{
+                padding: 10px;
+                height: 500px;
+                background-color: #ededed;
+            }
+            main iframe{
+                border: 0px;
+                width: 90%;
+                height: 900px;
+            }
+            footer{
+                padding: 10px;
+                background-color: black;
+                color: white;
+            }
+        </style>
     </head>
     <body>
-        <div>Seja Bem Vindo..</div>
+        <header>
+            <h1>Empresa XYB</h1>
+        </header>
+        
+        <nav>
+            <a href="cadastro.html">Cadastro de Produtos</a>
+            <a href="listaProdutos.html">Listagem de Produtos</a>
+            <a href="excluirProduto.html">Excluir de Produto</a>
+            <a href="alterarProduto.html">Alterar de Produto</a>
+        </nav>
+        
+        <main>
+            <iframe src="apresentacao.html" name="centro"></iframe>
+        </main>
+        
+        <footer>
+            <P>Desenvolvido por Rafael Novais</P>
+        </footer>
     </body>
 </html>
