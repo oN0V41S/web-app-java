@@ -1,54 +1,9 @@
-<!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
--->
 <html>
     <head>
         <title>Cadastro de Produto</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            *{
-                font-family: Arial,"sans-serif";
-            }
-            header{
-                background-color: white;
-                color: black;
-                padding: 10px;
-            }
-            nav{
-                background-color: grey;
-                padding: 10px;
-                display: flex;
-                align-items: center;
-                gap: 10px;
-                color: white;
-            }
-            a{
-                text-decoration: none;
-                transition: all 300ms ease-in-out;
-                color: white;
-            }
-            nav a:hover{
-                color: red;
-            }
-            main{
-                padding: 10px;
-                height: 500px;
-                background-color: #ededed;
-            }
-            main iframe{
-                border: 0px;
-                width: 90%;
-                height: 900px;
-            }
-            footer{
-                padding: 10px;
-                background-color: black;
-                color: white;
-            }
-        </style>
+        <link rel="stylesheet" href="configure.css"/>
     </head>
     <body>
         <header>
@@ -56,7 +11,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         </header>
         
         <nav>
-            <a href="cadastro.html">Cadastro de Produtos</a>
+            <a href="cadastro.html" target="centro">Cadastro de Produtos</a>
             <a href="listaProdutos.html">Listagem de Produtos</a>
             <a href="excluirProduto.html">Excluir de Produto</a>
             <a href="alterarProduto.html">Alterar de Produto</a>
