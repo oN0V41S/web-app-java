@@ -1,28 +1,35 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Cadastro de Produto</title>
+        <title>Cadastro de produto</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="configure.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
     </head>
     <body>
-        <header>
-            <h1>Empresa XYB</h1>
-        </header>
+        <header><h1>Mercado Bahia</h1></header>
         
         <nav>
-            <a href="cadastro.html" target="centro">Cadastro de Produtos</a>
-            <a href="listaProdutos.html">Listagem de Produtos</a>
-            <a href="excluirProduto.html">Excluir de Produto</a>
-            <a href="alterarProduto.html">Alterar de Produto</a>
+            <ul>
+                <li>
+                    <a href="./frames/cadpro.html"   target="centro">Cadastro de produtos</a>
+                </li>
+                <li>
+                    <a href="./controller/listapro.jsp" target="centro">Listagem de produtos</a>
+                </li>
+                <li>
+                    <a href="excpro.html"   target="centro">Excluir produto</a>
+                </li>
+                <li>
+                    <a href="altpro.html"   target="centro">Alterar produto</a>
+                </li>
+            </ul>
         </nav>
         
         <main>
-            <iframe src="apresentacao.html" name="centro"></iframe>
+            <iframe src="./frames/apresentacao.html" name="centro"></iframe>
         </main>
         
-        <footer>
-            <P>Desenvolvido por Rafael Novais</P>
-        </footer>
+        <footer>Desenvolvido por Rafael Novais</footer>
     </body>
 </html>
